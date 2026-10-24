@@ -42,5 +42,11 @@ public class MainActivity extends AppCompatActivity {
     private void search() {
         String text = etSearch.getText().toString().trim();
         String url;
+        int selectedID = rgSearch.getCheckedRadioButtonId();
+        if (selectedID == rdYahoo){
+
+        }else if (selectedID == rdGoogle){
+
+        }
     }
 }
